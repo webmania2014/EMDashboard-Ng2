@@ -6,6 +6,7 @@ import { CourseService } from '../service/course.service';
     template: `
         <h2>Courses</h2>
         {{title}}
+        <input type="text" autoGrow />
         <ul>
             <li *ngFor="let course of courses">
                 {{course}}
